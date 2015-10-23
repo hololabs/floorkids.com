@@ -88,7 +88,8 @@
 	                            <h2>it’s abdullah noman</h2>
 	                            <p>a user interface and user experience specialist</p>
 	                            -->
-	                            <img src="images/FloorKids_LettersLogo5_200px-high.png" alt="Floor Kids" width="90%">                        
+	                            <img src="images/FloorKids_LettersLogo5_200px-high.png" alt="Floor Kids" width="60%">
+	                            <img src="images/floorkids_lineup.jpg" alt="Floor Kids" width="100%">
 	                        </div>
 	                    </div>
 	                </div>
@@ -153,32 +154,34 @@
                         <p>Or complete the form:</p>
                     </div>
                 </div>
-                <div class="col-md-9  wow fadeInRight animated">
-                    <form class="contact-form" action="">
+                <div class="col-md-9  wow fadeInRight animated" id="contactFormDiv">
+                
+                    <script type="text/javascript">var submitted=false;</script>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted)
+                    {$('#contactFormDiv').html('<div class=\'contact-form text-center\'><p>Thanks for the message!<br>We\'ll be in touch shortly.</p></div>');}"></iframe>
+                    <form class="contact-form" action="https://docs.google.com/forms/d/1svfnmrbNyXBT1kvvHKvnUrDr2m54oUp3ovszhrjdMZw/formResponse" method="POST" id="ss_form" target="hidden_iframe" onsubmit="submitted=true; ">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">                                
+                                <input type="text" class="form-control" name="entry.509167464" id="entry_509167464" placeholder="Name">
+                                <input type="email" class="form-control" name="entry.1818521836" id="entry_1818521836" placeholder="Email">
+                                <input type="text" class="form-control" name="entry.2134496098" id="entry_2134496098" placeholder="Subject">                                
                             </div>
                             <div class="col-md-6">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>                                
+                                <textarea class="form-control" name="entry.1064026974" id="entry_1064026974" rows="25" cols="10" placeholder="  Message Text..."></textarea>
+                                <button type="submit" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>                                
                             </div>
                         </div>
+                        <input type="hidden" name="draftResponse" value="[,,&quot;-657222914060437678&quot;]">
+                        <input type="hidden" name="pageHistory" value="0">
+                        <input type="hidden" name="fvv" value="0">
+                        <input type="hidden" name="fbzx" value="-657222914060437678">
                     </form>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="work-with   wow fadeInUp animated">
-                        <h3>looking forward to hearing from you!</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>&nbsp;</p>
     </section>
 
 
@@ -200,7 +203,7 @@
                     <div class="social">
                         <h2>Follow us on social media</h2>
                         <ul class="icon_list">
-                            <li><a href="http://www.facebook.com/FloorKidsCrew"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://www.facebook.com/FloorKids"target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="http://www.twitter.com/FloorKidsCrew"target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://www.floorkids.com"target="_blank"><i class="fa fa-dribbble"></i></a></li>
                         </ul>
