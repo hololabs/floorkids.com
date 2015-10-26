@@ -3,7 +3,7 @@
   src: url("../fonts/jonjon.ttf")
   format("truetype");
 }
-.fkfont { font-family: "JonJon", sans-serif; }
+.fkfont { font-family: "JonJon", sans-serif; line-height: 150%; }
 
 body{
 	font-family: 'Dosis', sans-serif;
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6{
 
 	/* font-family: 'Dosis', sans-serif; */
 	font-family: 'JonJon', sans-serif;
+	line-height: 150%;
 }
 
 
@@ -55,7 +56,14 @@ header{
 	font-size: 14px;
 	text-transform: uppercase;
 }
-.home_text img{}
+.home_text img{
+  vertical-align:bottom;
+}
+.home_text_caption {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+}
 .scroll_down{
 	padding-bottom: 50px;
 }
@@ -130,6 +138,20 @@ background-color: #2d3334;
 .about_title img{
 	margin-bottom: 70px;
 }
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /*Testimonial*/
 .testimonial{
 		padding-top: 130px;
