@@ -62,6 +62,59 @@ header{
 	background-repeat: no-repeat;
 */
 }
+
+.title {
+  position: absolute;
+  left: 40%;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  color: #999;
+}
+
+.presskit-doc {
+
+	/* Magic! Makes sure the container is high enough to show the entire iframe 
+	 * Thanks to http://andmag.se/2011/11/responsive-embeds/ */
+/*
+	position: relative;
+	padding-bottom: 56.5%;
+	*/
+	position: relative;
+  height: 700px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+}
+
+.presskit-images {
+	position: relative;
+  width: 100%;
+  height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	/*
+	border: 1px dashed #999;
+  border-radius:10px;
+  */
+  border: 1px solid #999;
+  
+  -moz-box-shadow:    inset 0 0 10px #999;
+  -webkit-box-shadow: inset 0 0 10px #999;
+  box-shadow:         inset 0 0 10px #999;
+}
+
+.presskit-images iframe, .presskit-doc iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .section_overlay{
 	background: rgba(255,255,255, .5);
 }
