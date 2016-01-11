@@ -43,9 +43,16 @@ text-transform: uppercase;
 }
 .navbar-left
 {
+/*
   position: block;
   margin-top: 15px;
   margin-left: 10px;
+  */
+}
+
+.navbar-right
+{
+  margin-top: 15px;
 }
 
 header{
