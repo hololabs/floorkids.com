@@ -201,6 +201,9 @@ background-color: #2d3334;
 	margin-bottom: 20px;
 	line-height: 21px;
 }
+.about_us_p a {
+	font-family: 'Montserrat', sans-serif;
+}
 .content_p{
   margin-bottom: 40px;
 }
