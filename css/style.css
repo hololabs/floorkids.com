@@ -120,7 +120,13 @@ header{
 }
 .home_text{
 	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-bottom: 20px;
+}
+.logo_area{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	line-height: 2em;
+	font-size: 0.75em;
 }
 .home_text h2{
 	color: #010101;
