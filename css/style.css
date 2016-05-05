@@ -123,8 +123,8 @@ header{
 	padding-bottom: 20px;
 }
 .logo_area{
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 0;
+	padding-bottom: 0;
 	line-height: 2em;
 	font-size: 0.9em;
 }
@@ -132,6 +132,8 @@ header{
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+	max-height: 120px;
+	width: auto;
 }
 .home_text h2{
 	color: #010101;
