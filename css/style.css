@@ -137,11 +137,15 @@ header{
 	height: auto;
 	width: auto;
 }
-.laurel img {
+.logos img {
+  max-height: 70px;
+  max-width: 100%;
+}
+.laurels img {
   height: 100px;
 }
 @media(max-width: 767px){
-	.laurel img {
+	.laurels img {
 		margin-top: 20px;
 		height: 80px;
 	}
