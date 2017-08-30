@@ -6,13 +6,13 @@
 .fkfont { font-family: "JonJon", sans-serif; line-height: 150%; }
 
 body{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 p{
 	font-family: 'Montserrat', sans-serif;
 }
 a{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
@@ -149,6 +149,23 @@ header{
 		margin-top: 20px;
 		height: 80px;
 	}
+}
+
+.platform_logo {
+	/*display: inline-block;*/
+    display: flex;
+    white-space: nowrap;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.platform_logo img {
+	margin-top: 0px;
+	margin-left: 2px;
+	margin-right: 5px;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
 }
 
 .home_text h2{
