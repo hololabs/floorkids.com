@@ -187,6 +187,11 @@ header{
   vertical-align: bottom;
   padding-bottom: 10px;
 }
+@media(max-width: 767px){
+.home_text_caption {
+	font-size: 12px;
+}}
+
 .scroll_down{
 	padding-bottom: 50px;
 }
