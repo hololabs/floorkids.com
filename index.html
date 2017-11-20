@@ -120,7 +120,8 @@
 	                     <div class="col-md-2"></div>
 	                     <div class="col-md-8 text-right">	                     
 	                     <!--<button id="open-popup" >Notify me!</button>-->
-	                     <button onclick="showMailingPopUp()">Notify me!</button>
+	                     <button onclick="showMailingPopUp()"><strong>Notify me!<strong></button>
+	                     <!--<a onclick="showMailingPopUp()">Notify me!</a>-->
 						</div>
 	                     <div class="col-md-2"></div>
 	                     
@@ -462,7 +463,7 @@ function showMailingPopUp() {
     require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"2001b9e220"}) })
     document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 };
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+//document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
 </script>
 
 
