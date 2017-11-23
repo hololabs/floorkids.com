@@ -195,13 +195,16 @@ header{
 
 /* Mailchimp popup: */
 
-@media only screen and (max-width: 768px) {
-.mc-banner { top: 50% !important; } /* move popup down to middle of the screen so it does not interfere with the navigation. */
-.mc-banner { width: 100%; }
+/* move popup down to middle of the screen so it does not interfere with the navigation. */
+@media only screen and (max-width: 767px) {
+/*.mc-banner { top: 50% !important; }*/
+.mc-banner { width: 350px; }
 }
 
-@media only screen and (max-width: 768px) {
-.mc-modal-bg { background-color:rgba(0, 0, 0, 0.5); !important; } /* darken background */
+
+/* darken background */
+@media only screen and (max-width: 767px) {
+.mc-modal-bg { background-color:rgba(0, 0, 0, 0.5); !important; } 
 }
 
 
