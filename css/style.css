@@ -141,6 +141,11 @@ header{
   max-height: 70px;
   max-width: 100%;
 }
+.logo img {
+	width: 100%;
+	max-width: 500px;
+}
+
 .laurels img {
   height: 100px;
 }
