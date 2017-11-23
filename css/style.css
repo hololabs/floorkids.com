@@ -193,6 +193,21 @@ header{
 	color: #FFFFFF;
 }
 
+/* Mailchimp popup: */
+
+@media only screen and (max-width: 768px) {
+.mc-banner { top: 50% !important; } /* move popup down to middle of the screen so it does not interfere with the navigation. */
+.mc-banner { width: 100%; }
+}
+
+@media only screen and (max-width: 768px) {
+.mc-modal-bg { background-color:rgba(0, 0, 0, 0.5); !important; } /* darken background */
+}
+
+
+
+
+
 .home_text h2{
 	color: #010101;
 	font-size: 40px;
