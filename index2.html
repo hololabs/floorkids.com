@@ -482,8 +482,8 @@ function showMailingPopUp() {
         aString += i + ' ' + theCookies[i-1] + "\n";
     }
     console.log("Cookies: "+aString);
-    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    document.cookie = "MCPopupClosed=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    document.cookie = "MCPopupSubscribed=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
     require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"2001b9e220"}) })
     //document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 };
