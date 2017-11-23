@@ -111,16 +111,19 @@
 	                            -->
 	                        </div>
 	                     </div>
-						 <div class="col-md-3"></div>
-	                     <div class="col-md-6 text-center">
+						 
+						 <div class="col-md-2"></div>
+	                     <div class="col-md-8 text-center">
 	                        <div class="home_text_caption wow fadeInRight animated">
 							<p>&nbsp;&nbsp;
-							<strong>Bring Your Skills. Build Your Crew. Find Your Style.</strong></p>
-							<p><strong>GET YOURS ON <img src="images/logo_NintendoSwitchWithWords.png" alt="For Nintendo Switch" height="50px"> THIS HOLIDAY SEASON!</strong></p>
+							<strong><i>Bring Your Skills. Build Your Crew. Find Your Style.</i></strong></p>
+							<p><strong>GET YOURS ON NINTENDO SWITCH THIS HOLIDAY SEASON!</strong></p>
 	                        </div>
 	                     </div>
-	                      <div class="col-md-1 text-right">
-	                        <div class="home_text_caption wow fadeInRight animated">
+	                     <div class="col-md-2"></div>
+	                     
+	                     <div class="col-md-12 text-center">
+	                        <div class="home_text_caption wow fadeInUp animated">
 	                     		<button class="cta_button" onclick="showMailingPopUp(); return false;"><strong>Notify me!<strong></button>
 								 <!--<button id="open-popup" >Notify me!</button>-->
 								 <!--<a onclick="showMailingPopUp()">Notify me!</a>-->
@@ -473,6 +476,7 @@
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script>
 function showMailingPopUp() {
+    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
     require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"2001b9e220"}) })
     document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 };
