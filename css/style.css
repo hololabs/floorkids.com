@@ -254,7 +254,7 @@ body{
 }
 
 @media(max-width: 767px){
-  .tagline { font-size: 13px; }
+  .tagline { font-size: 12px; }
 }
 
 .home_text_caption {
