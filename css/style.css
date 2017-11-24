@@ -55,13 +55,16 @@ text-transform: uppercase;
   margin-top: 15px;
 }
 
-header{
 /*
-	background: url(../images/header_bg.jpg);
+body{
+
+	background: url(../images/FK_BannerHorizontal.jpg);
 	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
-*/
+
 }
+*/
 
 .title {
   position: absolute;
@@ -118,8 +121,19 @@ header{
 .section_overlay{
 	background: rgba(255,255,255, .5);
 }
+
+.banner img {
+	width:100%;
+	margin-top: 50px;
+}
+
 .home_text{
 	padding-top: 110px;
+	padding-bottom: 20px;
+}
+
+.home_text2{
+	padding-top: 0px;
 	padding-bottom: 20px;
 }
 .logo_area{
@@ -230,16 +244,30 @@ header{
 .home_text img{
   vertical-align:bottom;
 }
-.home_text_caption {
+
+.tagline {
   display: inline-block;
   vertical-align: bottom;
+  font-size: 17px;
+  font-weight: bold;
   padding-bottom: 10px;
 }
 
 @media(max-width: 767px){
+  .tagline { font-size: 13px; }
+}
+
 .home_text_caption {
-	font-size: 12px;
-}}
+  display: inline-block;
+  vertical-align: bottom;
+  padding-bottom: 11px;
+}
+
+@media(max-width: 767px){
+  .home_text_caption { font-size: 10px; }
+}
+
+
 
 .scroll_down{
 	padding-bottom: 50px;
