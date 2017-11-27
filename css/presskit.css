@@ -79,7 +79,9 @@ a.anchor {
 }
 
 #content h2 {
-	font-family: Georgia, "Times New Roman", Times, serif;s
+	/* font-family: Georgia, "Times New Roman", Times, serif; */
+	font-family: 'LunchBox', sans-serif;
+	font-size: 2.5em;
 }
 
 #navigation img.logo {

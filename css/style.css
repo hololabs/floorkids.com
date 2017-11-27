@@ -1,38 +1,39 @@
-@font-face {
-  font-family: "JonJon";
-  src: url("../fonts/jonjon.ttf")
-  format("truetype");
-}
-.fkfont { font-family: "JonJon", sans-serif; line-height: 150%; }
-
 body{
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
+	/* font-family: 'Dosis', sans-serif; */
+	/* font-family: 'LunchBox', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
 }
+/*
 p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
+*/
 a{
-	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
 
-	/* font-family: 'Dosis', sans-serif; */
-	font-family: 'JonJon', sans-serif;
-	line-height: 150%;
+	font-family: 'LunchBox', sans-serif;
+	/* line-height: 150%; */
 }
 
 
 /*Header*/
 .navbar-default .navbar-nav>li>a {
-color: #777;
-text-transform: uppercase;
+	color: #777;
+	text-transform: uppercase;
+	line-height: 1.5em;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
 }
 
 .navbar a {
+  font-family: 'LunchBox', sans-serif;
+  font-size: 24px;
+  
   color: #777;
   text-transform: uppercase;
   margin-left: 5px;
@@ -165,9 +166,14 @@ body{
 }
 @media(max-width: 767px){
 	.laurels img {
-		margin-top: 20px;
+		margin-top: 10px;
+		margin-top: 10px;
 		height: 80px;
 	}
+}
+
+.screenshot img {
+	margin: 5px;
 }
 
 .platform_logo {
@@ -188,12 +194,16 @@ body{
 }
 
 .cta_button {
-	padding: 10px;
+	padding-top: 6px;
+	padding-bottom: 2px;
 	
 	/* rounded corners */
     border-radius: 4px;
     moz-border-radius: 4px;
     webkit-border-radius: 4px;
+    
+    font-family: 'LunchBox', sans-serif;
+    font-size: 28px;
     
     width: 200px;
     border: 1px #FFFFFF solid;
@@ -248,13 +258,14 @@ body{
 .tagline {
   display: inline-block;
   vertical-align: bottom;
-  font-size: 17px;
+  font-family: 'LunchBox', sans-serif;
+  font-size: 28px;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
 @media(max-width: 767px){
-  .tagline { font-size: 12px; }
+  .tagline { font-size: 20px; }
 }
 
 .home_text_caption {
@@ -264,7 +275,7 @@ body{
 }
 
 @media(max-width: 767px){
-  .home_text_caption { font-size: 10px; }
+  .home_text_caption { font-size: 13px; }
 }
 
 
@@ -323,25 +334,25 @@ background-color: #2d3334;
 	font-weight: 400;
 }
 .about_us_p{
-	font-size: 14px;
+/*	font-size: 16px; */
 	color: #272727;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 20px;
 	line-height: 21px;
 }
 .about_us_p a {
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 }
 .content_p{
   margin-bottom: 40px;
 }
 .about_title h2{
-	font-size: 25px;
+	font-size: 36px;
 	color: #3d3d3d;
 	text-transform: uppercase;
 	margin-top: 85px;
 	letter-spacing: 6px;
-	margin-bottom: 21px;
+	margin-bottom: 16px;
 }
 .about_title img{
 	margin-bottom: 70px;
@@ -518,19 +529,19 @@ text-transform: uppercase;
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.work_title{}
-.work_title h1, .contact_title h1{
-	font-size: 25px;
+.section_title{}
+.section_title h1 {
+	font-size: 36px;
 	color: #3d3d3d;
 	letter-spacing: 5px;
 	padding-top: 80px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-.work_title img, .contact_title img{
+.section_title img{
 	margin-bottom: 30px;
 }
-.work_title p, .contact_title p{
+.section_title p{
 	font-size: 14px;
 	color: #000;
 	margin-bottom: 100px;
@@ -579,7 +590,7 @@ text-transform: uppercase;
 
 .single_contact_info{
 padding-top: 40px;
-padding-bottom: 21px;	
+padding-bottom: 21px;
 }
 .single_contact_info h2{
 text-transform: uppercase;
@@ -589,7 +600,7 @@ letter-spacing: 3px;
 margin-bottom: 1px;	
 }
 .single_contact_info p{
-font-size: 15px;
+font-size: 18px;
 color: #3d3d3d;	
 }
 
@@ -633,7 +644,7 @@ padding-top: 10px;
 /*Footer*/
 footer{
 	background-color: #f1f1f1;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 }
 .footer_logo{}
@@ -642,15 +653,17 @@ footer{
 	padding-top: 10px;
 }
 .social h2{
+font-family: 'LunchBox', sans-serif;
+font-size: 32px;
 text-transform: uppercase;
-font-size: 16px;	
+color: #666;
 }
 ul.icon_list{
 margin: 0;
 padding: 0;
 list-style: none;
 text-align: center;
-margin-top: 20px;
+margin-top: 10px;
 }
 ul.icon_list li{
 display: inline;
