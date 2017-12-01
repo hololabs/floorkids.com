@@ -25,6 +25,11 @@ img {
   color: #999;
 }
 
+.photoCaption p {
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
 a.anchor {
     display: block;
     position: relative;
