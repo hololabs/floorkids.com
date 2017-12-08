@@ -173,7 +173,7 @@
 	                        <div class="home_text_caption wow fadeInUp animated">
 	                        	<button class="cta_button" onclick="window.location = 'http://www.nintendo.com/games/detail/floor-kids-switch'; return false;">View on Nintendo eShop</button>
 								
-	                     		<button class="cta_button" onclick="showMailingPopUp(); return false;">Notify me on release day!</button>
+	                     		<button class="cta_button" onclick="showMailingPopUp(); return false;">Notify me in EU/Australia!</button>
 	                     		
 	                     	</div>
 	                     </div>
@@ -476,7 +476,10 @@
 	function showMailingPopUp() {
 		document.cookie = "MCPopupClosed=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 		document.cookie = "MCPopupSubscribed=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-		require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"2001b9e220"}) })
+		// notification list (north america)
+		//require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"2001b9e220"}) })
+		// notification list (europe/australia)
+		require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7b6f869fba10c44b655e6e568","lid":"ba1d9d0b88"}) })
 	};
 	</script>
 
