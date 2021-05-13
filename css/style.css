@@ -205,6 +205,7 @@ body{
 	max-height: 60px;	
 	max-width: 125px;
 	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 @media(min-width: 768px){
