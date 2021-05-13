@@ -204,6 +204,7 @@ body{
 	vertical-align: middle;
 	max-height: 60px;	
 	max-width: 125px;
+	filter: grayscale(100%);
 }
 
 @media(min-width: 768px){
